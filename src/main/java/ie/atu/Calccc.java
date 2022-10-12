@@ -17,7 +17,7 @@ public class Calccc {
         System.out.println("Please enter your second number: ");
         int secondNumber = inputs.nextInt();
 
-        int total = firstNumber * secondNumber;
+        int total = firstNumber - secondNumber;
         System.out.println("The total is: " + total);
     }
 }

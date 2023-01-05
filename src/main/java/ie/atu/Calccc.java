@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class Calccc {
     public static void main(String[] args) {
-        mul();
+        add();
 
     }
-    public static void mul()
+    public static void add()
     {
         System.out.println("Please enter your first number: ");
         Scanner inputs = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class Calccc {
         System.out.println("Please enter your second number: ");
         int secondNumber = inputs.nextInt();
 
-        int total = firstNumber * secondNumber;
+        int total = firstNumber + secondNumber;
         System.out.println("The total is: " + total);
     }
 }
